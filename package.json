@@ -1,0 +1,14 @@
+{
+  "name": "json-patch-core",
+  "version": "0.1.0",
+  "description": "RFC 6902 JSON Patch subset: add/remove/replace/test with strict pointers, all-or-nothing apply. Zero runtime dependencies.",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test tests/patch.test.js",
+    "demo": "node bin/patch.mjs --assert"
+  }
+}
